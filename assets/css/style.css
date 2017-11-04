@@ -1,33 +1,34 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 .wrapper {
   padding: 5rem;
-  background-image: url("../images/regal.png")
+  background-image: url("../images/regal.png");
+  min-width: 400px;
 }
 
-/* Typography */
+/* Panels and Cards*/
 
-h1 {
-  padding-bottom: 9px;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #eee;
+nav, .card-body {
+  background-color: #4aaaa5;
 }
 
-/* Panels */
-
-.panel {
+.background{
   background-color: #fff;
   border: 1px solid #eee;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
+.card-title {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* Sticky footer styles */
 html {
   position: relative;
   min-height: 100%;
 }
-body {
-  margin-bottom: 60px; /* Margin bottom by footer height */
-}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -36,4 +37,28 @@ body {
   line-height: 60px; /* Vertically center the text there */
   background-color: #666;
   color: #777;
+}
+
+/*Text*/
+.navbar-brand {
+  font-size: 26px;
+}
+
+.color {
+  color: #4aaaa5;
+}
+
+h2, h6, .navbar-brand {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p, a {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*Other styling */
+aside img {
+  width: 100%;
+  padding:0;
+  margin:0;
 }

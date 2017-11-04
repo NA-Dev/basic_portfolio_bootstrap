@@ -1,73 +1,131 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-
-<!-- Webpage of projects by Nikki Aaron, a junior web developer -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Webpage about Nikki Aaron, a junior web developer">
+    <meta name="author" content="Nikki Aaron">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
 
     <title>Nikki's Portfolio</title>
 
-    <meta charset="utf-8">
-    <meta name="author" content="Nikki Aaron">
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="assets/css/normalize.css" rel="stylesheet">
 
-</head>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-<body>
-<div class="wrapper clearfix">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
 
-    <header class="clearfix">
-        <div class="container clearfix">
-            <h1>Nikki Aaron</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <span class="navbar-brand">Nikki Aaron</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="I'm curious about..." aria-label="Search">
+            <button class="btn  btn-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
         </div>
+      </nav>
     </header>
 
-    <div class="container clearfix">
-        <main id="main-content" class="clearfix">
-            <h2>Portfolio</h2>
-            <hr>
-            <div class="project left">
-                <img class="screenshot" src="assets/images/placeholder1.jpg" alt="Go to Hangman project">
-                <div class="tag">Hangman</div>
-            </div>
-            <div class="project right">
-                <img class="screenshot" src="assets/images/placeholder2.jpg" alt="Go to RPG Game project">
-                <div class="tag">RPG Game</div>
-            </div>
-            <div class="project left">
-                <img class="screenshot" src="assets/images/placeholder3.jpg" alt="Go to Trivia project">
-                <div class="tag">Trivia Game</div>
-            </div>
-            <div class="project right">
-                <img class="screenshot" src="assets/images/placeholder4.jpg" alt="Go to Rutgers Info Widget project">
-                <div class="tag">Rutgers Info Widget</div>
-            </div>
-            <div class="project left">
-                <img class="screenshot" src="assets/images/placeholder5.jpg" alt="Go to Rock Paper Scissors project">
-                <div class="tag">Rock Paper Scissors</div>
+    <div class=" wrapper container-fluid">
+      <div class="row">
+        <main class="panel panel-default p-3 col-md-8">
+            <div class="background p-3">
+              <h2 class="color">Portfolio</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6 p-3">
+                        <div class="card">
+                            <img class="img-fluid" src="assets/images/placeholder1.jpg" alt="Go to Hangman project">
+                            <div class="card-body">
+                                <h4 class="card-title">Hangman</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <div class="card">
+                            <img class="img-fluid" src="assets/images/placeholder2.jpg" alt="Go to RPG Game project">
+                            <div class="card-body">
+                                <h4 class="card-title">RPG Game</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <div class="card">
+                            <img class="img-fluid" src="assets/images/placeholder3.jpg" alt="Go to Trivia project">
+                            <div class="card-body">
+                                <h4 class="card-title">Trivia Game</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <div class="card">
+                            <img class="img-fluid" src="assets/images/placeholder4.jpg" alt="Go to Rutgers Info Widget project">
+                            <div class="card-body">
+                                <h4 class="card-title">Rutgers Info Widget</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-3">
+                        <div class="card">
+                            <img class="img-fluid" src="assets/images/placeholder5.jpg" alt="Go to Rock Paper Scissors project">
+                            <div class="card-body">
+                                <h4 class="card-title">Rock Paper Scissors</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
-
-        <aside id="social" class="clearfix">
-            <h3>Connect with Me</h3>
-            <hr>
-            <a href="https://github.com/NA-Dev" target="_blank"><img src="assets/images/github.png" alt="Go to Nikki's GitHub profile"></a>
-            <a href="https://www.linkedin.com/in/nikki-aaron-48134471/" target="_blank"><img src="assets/images/linkedin.png" alt="Go to Nikki's LinkedIn profile"></a>
-            <a href="https://stackoverflow.com/users/8606859/na-dev" target="_blank"><img src="assets/images/stack.png" alt="Go to Nikki's StackOverflow profile"></a>
+        <aside class="panel panel-default col-md-4 p-3">
+            <div class="background p-3">
+              <h6 class="color">Connect with Me</h6>
+              <hr>
+              <div class="row pl-3 pr-3 pb-3">
+                <div class="col-4 p-0">
+                  <a href="https://github.com/NA-Dev" target="_blank"><img src="assets/images/github.png" alt="Go to Nikki's GitHub profile" class="img-fluid"></a>
+                </div>
+                <div class="col-4 p-0">
+                  <a href="https://www.linkedin.com/in/nikki-aaron-48134471/" target="_blank"><img src="assets/images/linkedin.png" alt="Go to Nikki's LinkedIn profile" class="img-fluid"></a>
+                </div>
+                <div class="col-4 p-0">
+                  <a href="https://stackoverflow.com/users/8606859/na-dev" target="_blank"><img src="assets/images/stack.png" alt="Go to Nikki's StackOverflow profile" class="img-fluid"></a>
+                </div>
+              </div>
+            </div>
         </aside>
+      </div>
     </div>
-
-    <footer>
-        <p>&copy; Copyright 2017 Nikki Aaron<p>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-center">&copy; Copyright 2017 Nikki Aaron</p>
+      </div>
     </footer>
 
-</div>
-</body>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
 </html>
