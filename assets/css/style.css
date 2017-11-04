@@ -2,7 +2,6 @@
 .wrapper {
   padding: 5rem;
   background-image: url("../images/regal.png");
-  min-width: 400px;
 }
 
 /* Panels and Cards*/
@@ -27,6 +26,7 @@ nav, .card-body {
 html {
   position: relative;
   min-height: 100%;
+  min-width: 400px;
 }
 
 .footer {
@@ -37,6 +37,10 @@ html {
   line-height: 60px; /* Vertically center the text there */
   background-color: #666;
   color: #777;
+}
+
+footer p {
+  margin-bottom: 0;
 }
 
 /*Text*/
