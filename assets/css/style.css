@@ -21,6 +21,7 @@ nav {
 
 .card {
   position: relative;
+  border: 0;
 }
 
 .card-body {
