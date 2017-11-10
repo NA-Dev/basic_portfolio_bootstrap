@@ -3,13 +3,14 @@
   flex: 1;
   padding-left: 10vw;
   padding-right: 10vw;
-  padding-top: calc(60px + 1vw);
+  padding-top: calc(70px + 4vw); /*updated 11/10/17*/
   padding-bottom: calc(60px + 1vw);
   background-image: url("../images/regal.png");
 }
 
 nav {
   background-color: #4aaaa5;
+  border-bottom: 8px double #d8d8d8; /*updated 11/10/17*/
 }
 
 /* Panels and Cards*/
@@ -17,6 +18,7 @@ nav {
 .panel-background{
   background-color: #fff;
   border: 1px solid #eee;
+  padding: 5%; /*updated 11/10/17*/
 }
 
 .card {
@@ -28,8 +30,7 @@ nav {
   background-color: #4aaaa5;
   position: absolute;
   width: 100%;
-  top: calc(70%);
-  padding: 4%;
+  top: calc(85% - 1.5em);/*updated 11/10/17*/
 }
 
 .card-title {
@@ -52,6 +53,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  min-width: 400px;
 }
 
 .footer {
@@ -65,17 +67,18 @@ body {
 footer p {
   margin-bottom: 0;
   color: #999;
-  font-size
+  font-size: calc(10px + 0.5vw); /*updated 11/10/17*/
 }
 
 /*Text styling*/
 .navbar-brand {
   font-size: 26px;
+  line-height: 40px; /*updated 11/10/17*/
+  padding: 10px 0 5px 15px; /*updated 11/10/17*/
 }
 
 h2, h4, .navbar-brand {
   font-family: 'Georgia', Times, Times New Roman, serif;
-  color: #4aaaa5;
 }
 
 p, a, h3,h5 {
@@ -83,30 +86,36 @@ p, a, h3,h5 {
 }
 
 h2 {
-  font-size: calc(12px + 2vw);
+  font-size: calc(16px + 1vw); /*updated 11/10/17*/
+  color: #4aaaa5;
 }
+
 h3 {
-  font-size: calc(12px + 2.5vw);
+  font-size: calc(14px + 1vw);
   text-align: center;
 }
 
 h4 {
-  font-size: calc(14px + 0.5vw);
+  font-size: calc(14px + 0.5vw); /*updated 11/10/17*/
+  color: #4aaaa5;
 }
 
 h5 {
   color: #fff;
-  font-size: calc(12px + 0.5vw);
+  font-size: calc(14px + 0.5vw);
   text-align: center;
 }
 
 p {
   font-size: calc(12px + 0.5vw);
+  color: #777; /*added 11/10/17 Update*/
 }
 
-/*aside image sizing */
+/*aside images */
 aside img {
   width: 100%;
-  padding:0;
-  margin:0;
+}
+
+aside img:hover {
+  filter: drop-shadow(8px 8px 8px grey);
 }
