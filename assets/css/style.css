@@ -3,14 +3,14 @@
   flex: 1;
   padding-left: 10vw;
   padding-right: 10vw;
-  padding-top: calc(70px + 4vw); /*updated 11/10/17*/
+  padding-top: calc(70px + 4vw);
   padding-bottom: calc(60px + 1vw);
   background-image: url("../images/regal.png");
 }
 
 nav {
   background-color: #4aaaa5;
-  border-bottom: 8px double #d8d8d8; /*updated 11/10/17*/
+  border-bottom: 8px double #d8d8d8;
 }
 
 /* Panels and Cards*/
@@ -18,7 +18,7 @@ nav {
 .panel-background{
   background-color: #fff;
   border: 1px solid #eee;
-  padding: 5%; /*updated 11/10/17*/
+  padding: 5%;
 }
 
 .card {
@@ -30,7 +30,8 @@ nav {
   background-color: #4aaaa5;
   position: absolute;
   width: 100%;
-  top: calc(85% - 1.5em);/*updated 11/10/17*/
+  top: calc(90% - 1.5em);
+  padding: 5px;
 }
 
 .card-title {
@@ -66,15 +67,15 @@ body {
 }
 footer p {
   margin-bottom: 0;
-  color: #999;
-  font-size: calc(10px + 0.5vw); /*updated 11/10/17*/
+  color: em;
+  font-size: calc(10px + 0.5vw);
 }
 
 /*Text styling*/
 .navbar-brand {
   font-size: 26px;
-  line-height: 40px; /*updated 11/10/17*/
-  padding: 10px 0 5px 15px; /*updated 11/10/17*/
+  line-height: 40px;
+  padding: 10px 0 5px 15px;
 }
 
 h2, h4, .navbar-brand {
@@ -86,7 +87,7 @@ p, a, h3,h5 {
 }
 
 h2 {
-  font-size: calc(16px + 1vw); /*updated 11/10/17*/
+  font-size: calc(16px + 1vw);
   color: #4aaaa5;
 }
 
@@ -96,13 +97,13 @@ h3 {
 }
 
 h4 {
-  font-size: calc(14px + 0.5vw); /*updated 11/10/17*/
+  font-size: calc(14px + 0.5vw);
   color: #4aaaa5;
 }
 
 h5 {
   color: #fff;
-  font-size: calc(14px + 0.5vw);
+  font-size: calc(12px + 0.5vw);
   text-align: center;
 }
 
