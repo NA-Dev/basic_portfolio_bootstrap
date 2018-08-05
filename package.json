@@ -1,37 +1,31 @@
 {
-    "title": "Business Casual",
-    "name": "startbootstrap-business-casual",
-    "version": "4.0.0",
-    "description": "A casual HTML website theme for businesses built with Bootstrap",
+    "title": "Compiled By Nikki",
+    "name": "compiledbynikki",
+    "version": "1.0.0",
+    "description": "A web developer portfolio website build with Bootstrap",
     "keywords": [
         "css",
         "sass",
         "html",
+        "bootstrap",
         "responsive",
-        "theme",
-        "template"
+        "web developer",
+        "portfolio"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/business-casual",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual/issues",
-        "email": "feedback@startbootstrap.com"
-    },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "author": "Nikki Aaron",
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual.git"
+        "url": "https://github.com/NA-Dev/NA-Dev.github.io"
     },
     "dependencies": {
         "bootstrap": "4.0.0",
-        "jquery": "3.3.1"
+        "jquery": "3.3.1",
+        "popper.js": "^1.14.3"
     },
     "devDependencies": {
-        "browser-sync": "2.23.6",
-        "gulp": "^3.9.1",
+        "browser-sync": "^2.24.6",
+        "gulp": "^4.0.0",
         "gulp-clean-css": "3.9.2",
         "gulp-header": "2.0.1",
         "gulp-rename": "^1.2.2",
